@@ -1,3 +1,4 @@
+/*---------------------------------------
 // var playerName = 'Clank McKrank';
 var playerName = window.prompt("What is your robot's name?");
 var playerHealth = 100;
@@ -59,3 +60,43 @@ var fight = function() {
 };
 // run fight function to start game
 fight();
+----------------------------------*/
+
+var enemy1 = "Roborto";
+var enemy2 = "Amy Android";
+var enemy3 = "Robo Trumble";
+
+var enemyNames = ["Roborto", "Amy Android", "Robo Trumble"];
+console.log(enemyNames);
+console.log(enemyNames[0]);
+console.log(enemyNames[3]);
+console.log(enemyNames.length);
+
+for(var i = 0; i < enemyNames.length; i++) {
+    
+    console.log(enemyNames[i]);
+  console.log(i);
+  console.log(enemyNames[i] + " is at " + i + " index");
+  }
+
+
+for(var i = 0; i < 3; i++) {
+    console.log("apple");
+    console.log("apple", i);
+  }
+var fight=function(){
+  var playerName = window.prompt("What is your robot's name?");
+var playerHealth = 100;
+var playerAttack = 10;
+var playerMoney = 10;
+
+var enemyNames = ["Roborto", "Amy Android", "Robo Trumble"];
+var enemyHealth = 50;
+var enemyAttack = 12;
+}
+
+for(var i = 0; i < enemyNames.length; i++) {
+    fight(enemyNames[i]);
+  
+}
+  fight();
